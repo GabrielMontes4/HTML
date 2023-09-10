@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera pagina</title>
+</head>
+<!-- ! + enter para el codigo inicial de html-->
+<body>
+    <!-- primer parrafo -->
+    <p id="Primer parrafo"> Hola Mundo, ahora mismo soy mas que marcos sukaritas 
+
+        <!-- para hacer un salto de linea es (br)-->
+        <br> wawawawa </p>
+
+    <a href="#ancla2"> <button>Regresar a botones</button></a>
+
+    <!-- abres otra (p) para saltar a otro parrafo-->
+    <p>segundo parrafo</p>
+
+    <!-- Titulares (para poner titulos h1)-->
+    <h1> TITULO 1 </h1>
+
+<!-- Subtitulos 2 - 3 - 4 - 5 -->
+    <h2>Titulo 2 (subtitulo)</h2>
+    <h3>soi mediano</h3>
+    <h4>toi creciendo</h4>
+    <h5>toi chikito</h5>
+    <h6>acabo de nacer, mama e gomitao</h6>
+
+    <!-- imagenes (src para el link de imagen y alt para el texto por si no sale la imagen)-->
+    <img src="https://media.istockphoto.com/id/1323238374/es/foto/las-manos-sostienen-un-lindo-erizo-con-agujas-afiladas-pequeño-animal-salvaje.jpg?s=612x612&w=0&k=20&c=MSimFJ_BqJTrlXTTASYJDgmEX91qU0r_V2d2ni9u7rY=" alt="puercoespinbebe" width="400px" height="250">
+    
+    <!--width se usa para el ancho y height para el alto (se recomienda variar el tamaño en width)-->
+
+    <!--alt + z para ajustar el txto a la pantalla-->
+
+    <img src="image/pewito.jpeg" alt="perro feliz" width="400">
+
+    <img src="image/vic.jpeg" alt="novia bomnita" width="400"> 
+    
+    <!-- Videos -->
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/iOf-54vjDx0?si=1Ft3v9z335YTJqTX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <div class="mapouter"><div class="gmap_canvas"><iframe src="https://maps.google.com/maps?q=university%20of%20san%20francisco&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" id="gmap_canvas" frameborder="0" scrolling="no" style="width: 600px; height: 400px;"></iframe><style>.mapouter{position:relative;text-align:right;height:400px;width:600px;}</style><style>.gmap_canvas{overflow:hidden;background:none!important;height:400px;width:600px;}</style><a href="https://www.eireportingonline.com">ei reporting</a></div></div>
+
+    <!-- Video local-->
+
+    <video controls src="video/WhatsApp Video 2023-09-05 at 18.31.48.mp4"></video>
+
+    <!-- atrivuto controls para reproducir el video-->
+
+    <!-- Listas Ordenadas-->
+
+    <ol>
+        <li>Comida</li>
+        <li>Valorant</li>
+        <li>Dormir</li>
+        <li>Trabajar</li>
+        <li>Repetir</li>
+    </ol>
+
+    <!-- Listas NO Ordenadas-->
+
+    <ul>
+        <li>Alfa</li>
+        <li>Beta</li>
+        <li>Omega</li>
+    </ul>
+
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <!-- ul>li*3 (en este caso) sirve para crear una lista mas rapido (valido para cualquier comando)-->
+
+    <!-- Tablas -->
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>Gabriel</td>
+            <td>Montes</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>Jose</td>
+            <td>Marcano</td>
+            <td>19</td>
+        </tr>
+    </table>
+
+    <!-- table=Para hacer una lista, thead (table head)= para el titulo, tr (table row)= para abrir la fila, th (table head, pero chikito y diferente)= para escribir datos de cada columna en las filas-->
+
+    <!-- Boton -->
+
+    <button> Push me </button>
+
+    <button> Soy un boton, tocame bobo </button>
+
+    <!-- Ancla o Hipervinculo-->
+
+    <a id="ancla1" href="https://www.youtube.com/@duki" target="_blank"> <button> Lugar feliz </button></a>
+
+    <a id="ancla2" href="#Primer parrafo"> <button>Regresar a inicio</button></a>
+
+    <!-- Para que el ancla funcione para navegar por los IDs, se debe poner el id despues de un #-->
+
+    <!-- atrivuto "target=_blank para que el link te abra en otra pestaña"-->
+
+    <!-- Debe tener https para que funcione el vinculo -->
+
+    <!-- Inputs (Entradas)
+
+    <input type="text" placeholder="Nombre porfa" name="Nombre" id="Input.Nombre">
+
+    <input type="email" placeholder="Correo porfa" name="Email" id="Input.Email">
+
+    <input type="password" placeholder="Clave porfa" name="Contraseña" id="Input.Password">
+
+    <input type="date" name="Fecha" id="Input.Fechas">
+
+    <input type="color" name="Color" id="Input.Color">
+
+    <input type="submit" value="Enviar">-->
+
+
+
+    <!-- Input text/email/password para crear uno campo de texto, placeholder para indicar que poner dentro -->
+
+    <!-- Input date/color, es para abrir un cuadro para elegir color y uno para fechas, respectivamente-->
+
+    <!-- Input submit para enviar toda la informacion de los anteriores cambios-->
+
+    <!-- El atrivuto id es una identificación unica para cada etiqueta -->
+
+    
+    
+    
+    <form action="">
+        <label for="Nombre">Nombre</label>
+        <input type="text" required placeholder="Ingresar nombre" name="Nombre" id="Nombre">
+
+        <br>
+
+        <label for="apellido">Apellido</label>
+        <input type="text" required placeholder="Ingresar apellido" name="Apellido" id="apellido">
+        
+        <br>
+
+        <label for="correo">Correo</label>
+        <input type="email" required placeholder="Ingresar correo" name="Correo" id="correo">
+
+        <br>
+
+        <label for="pais">Selecione su pais</label>
+        <select name="pais" id="Pais">
+            <option value="">Seleccione un pais</option>
+            <option value="+58" selected>Venezuela</option>
+            <option value="">Colombia</option>
+            <option value="" disabled>Argentina</option>
+        </select>
+
+    <!-- Lo que va en blanco es loq ue se ve en la pagina y e value es como la informacion se vera reflejada en el backend, con el atrivuto selected se pone una opcion como predeterminada-->
+
+        <br>
+
+        <input type="radio" name="genero" id="masculino" value="masculino">
+        <label for="masculino">Masculino</label>
+
+        <input type="radio" name="genero" id="femenino" value="femenino">
+        <label for="femenino">Femenino</label>
+
+        <input type="radio" name="genero" id="otro" value="otro">
+        <label for="otro">Otro</label>
+
+    <!-- En el input radio, todas las opciones deben tener el mismo nombre (name=) para que solo se seleccione uno-->
+
+        <br>
+
+        <input type="checkbox" name="perros" id="perros">
+        <label for="">Perros</label>
+
+        <input type="checkbox" name="gatos" id="gatos">
+        <label for="">Gatos</label>
+
+        <input type="checkbox" name="perico" id="perico">
+        <label for="">Perico</label>
+
+        <br>
+        <input type="hidden" name="" value="Esto_es_una_persona">
+        <input type="submit" value="Enviar Formulario">
+    </form>
+
+    <br>
+
+    <!-- DIV (division, es para crear divisiones dentro de la pagina)-->
+
+    <div>DIVISION</div>
+    <div>cuatro</div>
+    <p>transpaso de html a css</p>
+    <span>spanspanspan</span>
+    <span>4444spanpero con numeros4444</span>
+
+                <!-- HTML SEMANTICO -->
+
+    <!-- Barra de Navegacion -->
+    <nav id="mi-navbar" class="rojo texto-1"></nav>
+
+    <!-- Contenido Principal-->
+    <main class="rojo texto-1 nombreApellido"></main>
+
+    <!--Menu Lateral-->
+    <aside></aside>
+
+    <!-- Articulo-->
+    <article></article>
+
+    <!-- Seccion -->
+    <section></section>
+
+    <!-- Direccion (Fisica)-->
+    <address></address>
+
+    <!--Pie de Pagina-->
+    <footer></footer>
+
+<!-- class tambien sirve para identificar, y se pueden poner varios nombres donde cada uno es independiente-->
+
+<!-- Ctrl + D para seleccionar todas las palabras iguales a la seleccionada en la misma linea-->
+
+    <br>
+    <br>
+</body>
+</html>
